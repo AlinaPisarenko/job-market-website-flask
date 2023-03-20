@@ -1,0 +1,28 @@
+<h4>Application Form</h4>
+<form class="d-flex flex-column gap-2" action="/job/{{ job['id'] }}/apply" method="post">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" class="form-control" name="name" id="name" placeholder="Kate Adams">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="text" class="form-control" name="email" id="email" placeholder="kate.adams@gmail.com">
+    </div>
+    <div class="form-group">
+        <label for="linkedin">LinkedIn URL</label>
+        <input type="text" class="form-control" name="linkedin" id="linkedin" placeholder="https://www.linkedin.com/in/kate-adams">
+    </div>
+    <div class="form-group">
+      <label for="">Education</label>
+      <textarea class="form-control" id="education" name="education" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="">Experience</label>
+      <textarea class="form-control" id="experience" name="experience" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="resume">Resume URL</label>
+      <input type="text" class="form-control" name="resume_url" id="resume" >
+    </div>
+    <button type="submit" class="btn btn-primary mb-2 mt-2">Submit Application</button>
+  </form>
