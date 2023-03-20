@@ -16,5 +16,5 @@ def list_jobs():
   return jsonify(jobs)
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0', debug=True)
+  app.run(port=5555, debug=True)
 
