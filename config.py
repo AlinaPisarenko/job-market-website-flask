@@ -1,1 +1,0 @@
-db_connection_string = 'mysql+pymysql://i2n4ikof0q7heq4o9x0d:pscale_pw_9pOH1fEFdR1l3JQZKmndpGS2y1qXJSkdigIifaz1t3M@us-east.connect.psdb.cloud/jobhub?charset=utf8mb4'
