@@ -1,3 +1,3 @@
-# jovian-careers-website
+# JobHub-careers-website
 
 A careers website JobHub
